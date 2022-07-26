@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    height: 100vh;
+    background: url('./photos/6_folwer_cut.png') no-repeat bottom right, #F5F5F5;
+    background-size: 30%;
+}
+
+#navbarMonstera {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 50px;
+}
+
+#navFirst img {
+    width: 100px;
+}
+
+#navMid {
+    display: flex;
+}
+
+#navMid div {
+    margin: 0px 20px;
+    color: #242B2E;
+    position: relative;
+}
+
+#navMid div:hover {
+    cursor: pointer;
+}
+
+#navMid div:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: -3px;
+    left: 0;
+    background-color: #242B2E;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+#navMid div:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+#navEnd {
+    display: flex;
+}
+
+#navEnd div {
+    margin: 0px 20px;
+    color: #242B2E;
+    position: relative;
+}
+
+#navEnd div:hover {
+    cursor: pointer;
+}
+
+#midWholePart11 {
+    margin-top: 75px;
+    margin-left: 50px;
+}
+
+#monstera {
+    font-size: 100px;
+    font-weight: 900;
+}
+
+ul li:nth-child(3) {
+    color: #606a6b;
+}
+
+ul li:nth-child(4) {
+    color: #606a6b;
+}
+
+#midWholePart121 {
+    margin-top: 50px;
+    margin-left: 50px;
+    background-color: #2c6b3c;
+    position: absolute;
+    display: flex;
+    align-items: flex-end;
+    padding: 10px 20px;
+    font-size: small;
+    color: white;
+    border-radius: 30px;
+}
+
+#midWholePart121:hover {
+    cursor: pointer;
+}
+
+#midWholePart121 div {
+    padding: 10px;
+}
+
+#midWholePart13 {
+    display: flex;
+    position: absolute;
+    bottom: 20px;
+    left: 50px;
+}
+
+.midWholePart13Parts {
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+}
+
+#feeding {
+    width: 62px;
+    padding-right: 5px;
+}
+
+#light {
+    width: 35px;
+    padding-right: 5px;
+}
+
+#care {
+    width: 45px;
+    padding-right: 5px;
+}
+
+.text {
+    font-size: x-small;
+    font-weight: 500;
+    color: #242B2E;
+    width: 70%;
+}
